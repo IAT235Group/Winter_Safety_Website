@@ -1,5 +1,3 @@
-
-
 /* 
 	All coding come from lecture with Paul Ryan Brokenshire with changes 
 	in the variables to adjust the desire layout of information.
@@ -12,7 +10,7 @@
 
 
 .box {
-
+	border-radius: 25px;
 	
 	display: -webkit-flex; 
 	display: -ms-flex; 
@@ -27,36 +25,61 @@
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 	
+
 	
 
 
+}
+
+.box-change{
+
+	-webkit-flex:-0.1 0.1 10%;
+	-ms-flex: -0.1 0.1 10%;
+	flex:-0.1 0.1 10%;
 }
 
 
 .box-item-nav {
-	
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+	
+
 }
 
 
 .box-item-1of2{
+	
 	flex: 1 1 50%;
 	background-color: rgba(255,255,255,75%);
+	
 
 }
 
+.square{
+	height: 260px;
+	width: 260px;
+	background-color: rgb(245, 136, 15);
+	
+
+}
+
+.rhombus1{
+	margin: auto;
+	
+  	
+}
 
 
 @media (max-width: 60em) {
 
 	.box-item-1of2 {
+		border-radius: 25px;
 		flex-basis:100%;
+	
+
 	}
 
 
 
 }
-
-
