@@ -1,4 +1,3 @@
-
 /* 
 	All coding come from lecture with Paul Ryan Brokenshire with changes 
 	in the variables to adjust the desire layout of information.
@@ -83,14 +82,6 @@ h2 a {
 	font-style: italic;
 }
 
-h3.other{
-	display:inline-table;
-	text-align:left;
-	flex:0 0 120px;
-	justify-content: center;
-	align-items: center; 
-	font-weight:bold;
-}
 
 p {
 	font-size: 1rem;
@@ -126,8 +117,3 @@ img.logo{ /* Personal idea using the concept of class as basis   */
 	width: 200px;
 
 }
-
-
-
-
-
