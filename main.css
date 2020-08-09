@@ -10,6 +10,7 @@ section {
 	border: 1px solid blue;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	padding: 15px;
 }
 
 
@@ -23,7 +24,7 @@ nav a, nav a:visited {
 	transition: background-color 0.5s;
 }
 
-
+/* Navigation Tab */
 .nav-main-item {
 	display: inline-block;
 	color: white;
@@ -38,7 +39,7 @@ nav a, nav a:visited {
 
 nav a.bg-orange {
 	background-color: rgb(245, 136, 15);
-
+	padding: 15px;
 }
 
 
@@ -48,6 +49,7 @@ nav a:hover, nav a:active, nav a:focus {
 	color: white;
 	border-color: blue;
 	border-style: solid;
+	padding:0.25rem 0.5rem;
 }
 
 
@@ -66,7 +68,7 @@ h1 {
 
 /* Orange box header */
 h2 {
-	
+	border-radius: 25px;
 	font-weight: normal;
 	font-size: 2rem; 
 	background-color: rgb(245, 136, 15);
@@ -93,7 +95,7 @@ img {
 	height: auto; 
 	width: auto;
 	max-width: 100%;
-	border: 1px solid #888888; 
+	border-radius: 1px solid #888888; 
 
 	
 }
@@ -115,9 +117,9 @@ img.logo{ /* Personal idea using the concept of class as basis   */
 	height: 200px;
 	width: 200px;
 
-
-
 }
+
+
 
 
 

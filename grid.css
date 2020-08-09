@@ -12,7 +12,7 @@
 
 
 .box {
-
+	border-radius: 25px;
 	
 	display: -webkit-flex; 
 	display: -ms-flex; 
@@ -34,29 +34,37 @@
 
 
 .box-item-nav {
-	
+	border-radius: 25px;
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+	
+
 }
 
 
 .box-item-1of2{
+	border-radius: 25px;
 	flex: 1 1 50%;
 	background-color: rgba(255,255,255,75%);
+	
 
 }
-
 
 
 @media (max-width: 60em) {
 
 	.box-item-1of2 {
+		border-radius: 25px;
 		flex-basis:100%;
+	
+
 	}
 
 
 
 }
+
+
 
 
