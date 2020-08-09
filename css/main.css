@@ -10,14 +10,21 @@ section {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 15px;
+
+
+}
+
+.back{
+
+	background-color: rgba(255,255,255,75%);	
 }
 
 
 nav a, nav a:visited {
+	
 	display: inline-block;
 	background-color: none;
-	color: black;
-	padding: 1em 1.25em;
+	color: black;	
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
@@ -27,29 +34,82 @@ nav a, nav a:visited {
 .nav-main-item {
 	display: inline-block;
 	color: white;
-	background-color: rgb(250,100,75);
+	background-color: rgb(245, 136, 15);
 	font-size: 1.5rem;
 	padding: 0.25rem 0.5rem;
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
 }
 
+.round{
 
-
-nav a.bg-orange {
-	background-color: rgb(245, 136, 15);
-	padding: 15px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
+
+.round1{
+
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.rotate{
+
+	transform: rotate(45deg);
+	
+}
+
+.rerotate{
+
+transform: rotate(-45deg);
+position:relative; left: -15px;
+position: relative; top: 40%;
+
+
+}
+
+.rerotate2{
+position:relative; left: 1px;
+
+}
+
+.rerotate3{
+position:absolute; left: -10px;
+
+}
+
+
+
 
 
 
 nav a:hover, nav a:active, nav a:focus {
+
 	background-color: gray;
 	color: white;
 	border-color: blue;
 	border-style: solid;
-	padding:0.25rem 0.5rem;
+	
 }
+
+nav a.change{
+
+	padding-top:-2.5em;
+	background-color: gray;
+	color: white;
+	border-color: blue;
+	border-style: solid;
+
+	
+
+	
+
+
+
+
+}
+
+
 
 
 body {
@@ -57,6 +117,12 @@ body {
 	font-size: 1em; 
 	color: black;
 	padding: 1em;
+	background-image: url(img2/back.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+
+
 }
 
 
@@ -70,12 +136,12 @@ h2 {
 	border-radius: 25px;
 	font-weight: normal;
 	font-size: 2rem; 
+	text-indent: 13px;
 	background-color: rgb(245, 136, 15);
-	border-color: blue;
-	border-style: solid;
-
-
+	image-rendering: crisp-edges;
 }
+
+
 
 
 h2 a {
@@ -93,14 +159,18 @@ p {
 img {
 	height: auto; 
 	width: auto;
-	max-width: 100%;
+	max-width: 99%;
 	border-radius: 1px solid #888888; 
 
 	
 }
+
+
+
+
 /* custom image config */
 img.custom{
-	height: 300px;
+	height: 250px;
 	width:screen - width;
 	max-width:50%;
 
