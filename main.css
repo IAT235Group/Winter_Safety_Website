@@ -83,6 +83,14 @@ h2 a {
 	font-style: italic;
 }
 
+h3.other{
+	display:inline-table;
+	text-align:left;
+	flex:0 0 120px;
+	justify-content: center;
+	align-items: center; 
+	font-weight:bold;
+}
 
 p {
 	font-size: 1rem;
