@@ -25,18 +25,9 @@
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 	
-
-	
-
-
 }
 
-.box-change{
 
-	-webkit-flex:-0.1 0.1 10%;
-	-ms-flex: -0.1 0.1 10%;
-	flex:-0.1 0.1 10%;
-}
 
 
 .box-item-nav {
@@ -68,6 +59,12 @@
 	margin: auto;
 	
   	
+}
+
+.center{
+	
+	display: flex;
+	justify-content: center;
 }
 
 
