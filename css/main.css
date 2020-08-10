@@ -6,6 +6,7 @@ section {
 	text-align: left;
 	margin: 2rem 0; 
 	padding: 2rem; 
+	
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 15px;
@@ -170,16 +171,25 @@ figcaption {
 	font-size: 1.5rem;
 	width:screen - width;
 	max-width:100%;
-	margin-left: 12rem;
-	margin-right: 12rem;
+	margin-left: 7rem;
+	margin-right:2rem;
+	
 }
+
 
 img.contacts{
 	height: 250px;
 	width:screen - width;
 	max-width:100%;
-	margin-left: 8rem;
-	margin-right: 12rem;
+	margin-left: 5rem;
+	align-content: center;
+}
+
+img.contacts2{
+	height: 250px;
+	width:screen - width;
+	max-width:100%;
+	margin-left: 2rem;
 	align-content: center;
 }
 
