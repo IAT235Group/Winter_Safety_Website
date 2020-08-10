@@ -92,23 +92,7 @@ nav a:hover, nav a:active, nav a:focus {
 	
 }
 
-nav a.change{
 
-
-	background-color: gray;
-
-	color: white;
-	border-color: blue;
-	border-style: solid;
-
-	
-
-	
-
-
-
-
-}
 
 
 
@@ -180,8 +164,8 @@ figcaption {
 	font-size: 1.5rem;
 	width:screen - width;
 	max-width:100%;
-	margin-left: 7rem;
-	margin-right:2rem;
+	margin-left: 9rem;
+	margin-right:6rem;
 	
 }
 
@@ -190,7 +174,7 @@ img.contacts{
 	height: 250px;
 	width:screen - width;
 	max-width:100%;
-	margin-left: 5rem;
+	margin-left: 6rem;
 	align-content: center;
 }
 
@@ -198,7 +182,7 @@ img.contacts2{
 	height: 250px;
 	width:screen - width;
 	max-width:100%;
-	margin-left: 2rem;
+	margin-left: 3rem;
 	align-content: center;
 }
 

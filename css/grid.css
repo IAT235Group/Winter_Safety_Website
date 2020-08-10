@@ -39,11 +39,23 @@
 }
 
 
+
+
 .box-item-1of2{
 	
 	flex: 1 1 50%;
 	background-color: rgba(255,255,255,75%);
 	
+
+}
+
+
+.nav-red {
+
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 
 }
 
@@ -68,15 +80,22 @@
 }
 
 
-@media (max-width: 60em) {
+@media screen and (max-width: 70em) {
 
 	.box-item-1of2 {
 		border-radius: 25px;
 		flex-basis:100%;
-	
+		
 
 	}
 
+	.nav-red {
+		border-radius: 25px;
+		float: none;
+		width: 100%;
+	}
+
+	
 
 
 }
