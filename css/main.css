@@ -1,4 +1,3 @@
-
 /* 
 	All coding come from lecture with Paul Ryan Brokenshire with changes 
 	in the variables to adjust the desire layout of information.
@@ -10,44 +9,108 @@ section {
 	border: 1px solid blue;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	padding: 15px;
+
+
+}
+
+.back{
+
+	background-color: rgba(255,255,255,75%);	
 }
 
 
 nav a, nav a:visited {
+
 	display: inline-block;
 	background-color: none;
-	color: black;
-	padding: 1em 1.25em;
+	color: black;	
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
 
-
+/* Navigation Tab */
 .nav-main-item {
 	display: inline-block;
 	color: white;
-	background-color: rgb(250,100,75);
+	background-color: rgb(245, 136, 15);
 	font-size: 1.5rem;
 	padding: 0.25rem 0.5rem;
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
 }
 
+.round{
 
-
-nav a.bg-orange {
-	background-color: rgb(245, 136, 15);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
+
+.round1{
+
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.rotate{
+
+	transform: rotate(45deg);
+	
+}
+
+.rerotate{
+
+transform: rotate(-45deg);
+position:relative; left: -15px;
+position: relative; top: 40%;
+
+
+}
+
+.rerotate2{
+position:relative; left: 1px;
+
+}
+
+.rerotate3{
+position:absolute; left: -10px;
+
+}
+
+
+
 
 
 
 nav a:hover, nav a:active, nav a:focus {
+	background-size: 100%,80%;
 	background-color: gray;
 	color: white;
 	border-color: blue;
 	border-style: solid;
+	
 }
+
+nav a.change{
+
+
+	background-color: gray;
+
+	color: white;
+	border-color: blue;
+	border-style: solid;
+
+	
+
+	
+
+
+
+
+}
+
+
 
 
 body {
@@ -55,6 +118,12 @@ body {
 	font-size: 1em; 
 	color: black;
 	padding: 1em;
+	background-image: url(img2/back.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+
+
 }
 
 
@@ -63,17 +132,17 @@ h1 {
 	text-indent:50px; 
 }
 
-
+/* Orange box header */
 h2 {
-	
+	border-radius: 25px;
 	font-weight: normal;
 	font-size: 2rem; 
+	text-indent: 13px;
 	background-color: rgb(245, 136, 15);
-	border-color: blue;
-	border-style: solid;
-
-
+	image-rendering: crisp-edges;
 }
+
+
 
 
 h2 a {
@@ -91,11 +160,38 @@ p {
 img {
 	height: auto; 
 	width: auto;
-	max-width: 100%;
-	border: 1px solid #888888; 
+	max-width: 99%;
+	border-radius: 1px solid #888888; 
 
 	
 }
+
+
+figcaption {
+	font-size: 1.5rem;
+	width:screen - width;
+	max-width:100%;
+	margin-left: 12rem;
+	margin-right: 12rem;
+}
+
+img.contacts{
+	height: 250px;
+	width:screen - width;
+	max-width:100%;
+	margin-left: 8rem;
+	margin-right: 12rem;
+	align-content: center;
+}
+
+/* custom image config */
+img.custom{
+	height: 250px;
+	width:screen - width;
+	max-width:50%;
+
+}
+
 
 img.logo{ /* Personal idea using the concept of class as basis   */
 	/* Took the idea from https://www.w3schools.com/howto/howto_css_image_center.asp  */
@@ -106,9 +202,4 @@ img.logo{ /* Personal idea using the concept of class as basis   */
 	height: 200px;
 	width: 200px;
 
-
-
 }
-
-
-
